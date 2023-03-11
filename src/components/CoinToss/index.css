@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.background {
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+.about {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.toss-image {
+  height: 100px;
+  width: 120px;
+}
+
+.button {
+  margin: 10px;
+  background-color: #e2a139;
+  border-style: none;
+  color: #a35200;
+  font-family: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.points-container {
+  display: flex;
+}
+
+.total {
+  margin: 20px;
+}
+
+.heads {
+  margin: 20px;
+}
+
+.tails {
+  margin: 20px;
+}
